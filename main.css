@@ -1,18 +1,18 @@
-.container-main {
-    /* background: blue; */
-    margin: 5% auto 10% auto;
+body {
+    padding-bottom: 5%;
 }
 
-.name-container {
-    /* background: gray; */
-    /* width: 70%; */
+.container-header {
+    margin: 5% auto 7% auto;
+}
+
+.title-name, .icons-container {
     margin: 0 auto;
 }
 
 .icons-container {
-    /* background: red; */
     width: 60%;
-    margin: 0 auto;
+    margin-top: 2em;
     padding: 0 !important;
 }
 
@@ -22,61 +22,24 @@
     color: purple;
 }
 
-ul {
-    list-style: none;
-    margin-top: 1.2em;
-}
+/* Contact icons and project thumbnails */
+.fa-4x { color: lightgrey; }
 
-.contact {
-    display: inline;
-}
+.fa-github:hover { color: black; }
 
-.fa-4x {
-    color: gray;
-    background: white;
-}
+.fa-linkedin-in { margin-right: 10%; }
+.fa-linkedin-in:hover { color: #07b; }
 
-.fa-github {
-    /* margin-right: 32%;
-    margin-left: -4%; */
-}
+.fa-twitter { margin-left: 10%; }
+.fa-twitter:hover { color: #29f; }
 
-.fa-github:hover {
-    color: black;
-}
+.fa-envelope:hover { color: red; }
 
-.fa-linkedin-in {
-    margin-right: 10%;
-}
+.thumbnail { padding: 10px; }
+.thumbnail:hover { box-shadow: 5px 5px 10px lightgray; }
 
-.fa-linkedin-in:hover {
-    color: #07b;
-}
 
-.fa-twitter {
-    margin-left: 10%;
-}
-
-.fa-twitter:hover {
-    color: #29f;
-}
-
-.fa-envelope {
-    /* margin-right: -5%; */
-}
-
-.fa-envelope:hover {
-    color: red;
-}
-
-.thumbnail {
-    padding: 10px;
-}
-
-.thumbnail:hover {
-    box-shadow: 5px 5px 10px lightgray;
-}
-
+/* Handle icon displays on smaller screens */
 @media screen and (max-width: 1024px){
     .icons-container {
         width: 70%;
