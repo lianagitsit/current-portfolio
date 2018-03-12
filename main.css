@@ -5,7 +5,7 @@
 
 .title-name {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 7em !important;
+    font-size: 7em;
     color: purple;
 }
 
@@ -47,7 +47,7 @@ ul {
 }
 
 .fa-envelope {
-    margin-right: 10%;
+    margin-right: 2%;
 }
 
 .fa-envelope:hover {
@@ -67,6 +67,17 @@ ul {
 }
 
 @media screen and (max-width: 425px){
+    .fa-4x {
+        font-size: 40px;
+    }
 
+    .fa-github {
+        margin-right: 1em;
+        margin-left: -1em;
+    }
+
+    .title-name {
+        font-size: 5em;
+    }
 }
 
